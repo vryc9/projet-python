@@ -1,4 +1,3 @@
-# core/fetcher.py
 import requests
 import json
 import time
@@ -13,7 +12,7 @@ class Fetcher:
         self.spotify_token = self._get_spotify_token()
 
     def _get_spotify_token(self):
-        if not SPOTIFY_CLIENT_SECRET or SPOTIFY_CLIENT_SECRET == "TON_CLIENT_SECRET_ICI":
+        if not SPOTIFY_CLIENT_SECRET:
             logger.warning("Spotify Secret manquant. Spotify sera ignoré.")
             return None
         

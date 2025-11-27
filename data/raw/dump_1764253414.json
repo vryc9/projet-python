@@ -1,7 +1,7 @@
 [
     {
         "source": "deezer",
-        "latency": 0.1250600814819336,
+        "latency": 0.11684083938598633,
         "status": 200,
         "data": [
             {
@@ -148,7 +148,7 @@
     },
     {
         "source": "lastfm",
-        "latency": 0.1943657398223877,
+        "latency": 0.18702077865600586,
         "status": 200,
         "data": [
             {
@@ -1653,7 +1653,7 @@
     },
     {
         "source": "spotify",
-        "latency": 0.3821525573730469,
+        "latency": 0.3071873188018799,
         "status": 200,
         "data": [
             {
