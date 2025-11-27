@@ -318,3 +318,39 @@
 2025-11-27 14:44:15,641 - INFO - Fetched 25 top tracks for country AU.
 2025-11-27 14:44:16,143 - INFO - Fetched 25 top tracks for country MX.
 2025-11-27 14:44:16,287 - INFO - Fetched info for 16 artists.
+2025-11-27 15:02:00,720 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 15:02:00,720 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 15:02:01,581 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 15:02:02,132 - INFO - Fetched 25 top tracks for country FR.
+2025-11-27 15:02:02,708 - INFO - Fetched 25 top tracks for country BR.
+2025-11-27 15:02:03,222 - INFO - Fetched 25 top tracks for country DE.
+2025-11-27 15:02:03,885 - INFO - Fetched 25 top tracks for country JP.
+2025-11-27 15:02:04,413 - INFO - Fetched 25 top tracks for country IT.
+2025-11-27 15:02:04,985 - INFO - Fetched 25 top tracks for country ES.
+2025-11-27 15:02:05,459 - INFO - Fetched 25 top tracks for country CA.
+2025-11-27 15:02:05,932 - INFO - Fetched 25 top tracks for country AU.
+2025-11-27 15:02:06,481 - INFO - Fetched 25 top tracks for country MX.
+2025-11-27 15:02:06,682 - INFO - Fetched info for 16 artists.
+2025-11-27 15:02:07,130 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 15:02:07,130 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 15:02:07,715 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 15:02:08,364 - INFO - Fetched 25 top tracks for country FR.
+2025-11-27 15:02:08,981 - INFO - Fetched 25 top tracks for country BR.
+2025-11-27 15:02:09,460 - INFO - Fetched 25 top tracks for country DE.
+2025-11-27 15:02:10,138 - INFO - Fetched 25 top tracks for country JP.
+2025-11-27 15:02:10,684 - INFO - Fetched 25 top tracks for country IT.
+2025-11-27 15:02:11,226 - INFO - Fetched 25 top tracks for country ES.
+2025-11-27 15:02:11,827 - INFO - Fetched 25 top tracks for country CA.
+2025-11-27 15:02:12,307 - INFO - Fetched 25 top tracks for country AU.
+2025-11-27 15:02:12,828 - INFO - Fetched 25 top tracks for country MX.
+2025-11-27 15:02:13,207 - INFO - Fetched info for 16 artists.
+2025-11-27 15:02:39,096 - INFO - Collected 250 tracks.
+2025-11-27 15:02:39,099 - INFO - KPIs: {'total_tracks': 250}
+2025-11-27 15:02:39,120 - INFO - Clustering Score: 0.6543868321103345
+2025-11-27 15:02:39,598 - INFO - Collected 250 tracks.
+2025-11-27 15:02:39,600 - INFO - KPIs: {'total_tracks': 250}
+2025-11-27 15:02:39,621 - INFO - Clustering Score: 0.6543868321103345
+2025-11-27 15:02:43,983 - INFO - Dashboard generated.
+2025-11-27 15:02:43,983 - INFO - Pipeline completed.
+2025-11-27 15:02:44,410 - INFO - Dashboard generated.
+2025-11-27 15:02:44,410 - INFO - Pipeline completed.

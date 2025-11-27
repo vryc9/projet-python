@@ -129,12 +129,13 @@ def main():
 
     # 4. Visualization
     viz.plot_wordcloud(cleaned_text)
-    viz.plot_wordcloud(cleaned_text)
     # viz.plot_bpm_stats(df) # Removed as we don't have audio features
     viz.plot_styles_by_country(df)
     viz.plot_top_artists(df)
     viz.plot_genre_dist(df)
     viz.plot_popularity_dist(df)
+    viz.plot_correlation_matrix(df)
+    viz.plot_popularity_by_genre(df)
     # Mock latencies for technical plot
     viz.plot_technical_stats([0.1, 0.2, 0.15, 0.3, 0.12]) 
     
