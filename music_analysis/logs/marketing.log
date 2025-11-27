@@ -1,0 +1,276 @@
+2025-11-27 11:41:00,709 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 11:41:00,710 - ERROR - Failed to initialize Spotify client: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2025-11-27 11:41:00,710 - WARNING - No Spotify keys found. Using mock data.
+2025-11-27 11:41:17,000 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 11:41:17,001 - ERROR - Failed to initialize Spotify client: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2025-11-27 11:41:17,001 - WARNING - No Spotify keys found. Using mock data.
+2025-11-27 11:41:17,002 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(117.9215413513131), 'std_bpm': np.float64(9.980590827484903)}
+2025-11-27 11:41:35,869 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 11:41:35,869 - ERROR - Failed to initialize Spotify client: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2025-11-27 11:41:35,869 - WARNING - No Spotify keys found. Using mock data.
+2025-11-27 11:41:35,871 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(120.11626713775973), 'std_bpm': np.float64(9.696018892611223)}
+2025-11-27 11:41:35,898 - INFO - Clustering Score: 0.3057416102541235
+2025-11-27 11:41:37,902 - INFO - Dashboard generated.
+2025-11-27 11:41:37,903 - INFO - Pipeline completed.
+2025-11-27 11:42:24,650 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 11:42:24,650 - ERROR - Failed to initialize Spotify client: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2025-11-27 11:42:24,650 - WARNING - No Spotify keys found. Using mock data.
+2025-11-27 11:42:24,652 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(120.51446758028105), 'std_bpm': np.float64(9.231173374756528)}
+2025-11-27 11:42:24,679 - INFO - Clustering Score: 0.2905212811861522
+2025-11-27 11:42:27,592 - INFO - Dashboard generated.
+2025-11-27 11:42:27,592 - INFO - Pipeline completed.
+2025-11-27 12:14:13,677 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 12:14:13,677 - ERROR - Failed to initialize Spotify client: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2025-11-27 12:14:13,677 - WARNING - No Spotify keys found. Using mock data.
+2025-11-27 12:14:13,679 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(118.93189400228795), 'std_bpm': np.float64(11.130270512115265)}
+2025-11-27 12:14:13,704 - INFO - Clustering Score: 0.2520686471940813
+2025-11-27 12:14:16,228 - INFO - Dashboard generated.
+2025-11-27 12:14:16,228 - INFO - Pipeline completed.
+2025-11-27 12:14:48,651 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 12:14:48,652 - INFO - Spotify client initialized successfully.
+2025-11-27 12:14:49,416 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 12:14:49,961 - INFO - Fetched 47 top tracks for country FR.
+2025-11-27 12:14:50,468 - INFO - Fetched 49 top tracks for country BR.
+2025-11-27 12:14:50,534 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x,1RiCNSkK4AfT1j8ZM4JnVs,1Z2vqcRGhTiQguE9trfVRQ,15vGti1ooNZFlDUdlLukX6,7sIsMmEEegMhiyppTD6IAO,23HcRvjLCaIHtxz6Rv3ibZ,36kPlvgOwqbdMqMyeioRJN,2gejTHYAbLb8EMVrB7k3pK,0xYUMACK3aiayOD4CzqNGk,23NAh1dEhmM9T18yucH0UM,5NibsGc8WwszytE8wILA4c,1qTYDXVm0H1AtUy2V4GlSC,11iEh1busXIiKv8KKc5uFv,2VNsMolUtwBFi4HacyLkUD,1UbXqTkXWj3q5bBPX0jXot,7EMUmM1J8fOcTEiqfwFtkV,6q9TDKBinsOLU0yi1H3dHO,3fHIPPeK2iYpLA3bo89Mb2,5p3b6I2VLjNjn78L0CvR2R,5JwDOayNu8WcUHI5sgyyKA,0IEuD2KOcVqFGVcsj5aFL6,38Q3fhKB8vR9pvhGugcxbb,0O67pMPzHrycPXcZ8zZEKn,1YlfGwNizEKy299l1PVggn,17tg01y3RhlfRKMnd333yL,1wubETHu3SeJHfbz9itEH0,1S9fKs0sAdZPlL8ViOARnS,07YFNeWYEuQ4XQfDd8571k,4ssHL7bSnOAE7HjiuLx6Co,07kLShG3HTeLXTqnFCqNAJ,4jUZymsR3lkia9wkP0o9cX,7pkpWcko6KEZANj0xKsCsu,1SelttS2mueDntyefQGi7s,2je7f5dovpUabOqTSfyD5V,5QbtKOsjbEGkx0GMiQGBZt,4iN4gdJuUBW8ukOlmv3p4U,2gfn28JSINCJGLrUimmu0l,280QfKhmWGn3LbyB39aA7u,5bPVaf87iW31GGfmk2yqsd,4pOGEJRVOuaa9oyy7qTGf6,6oAP2IzmmBaFCqq7B17g1e,6Kyl2nFgU0J8WBlbBvDv6g,2x3h5JeoPNM76P3aMv03no,1WaiLsA7nJQPvl1csVsl9S,1gxCrmBSKvewYwHIA6g72x,1Z2vqcRGhTiQguE9trfVRQ,03PSDRVwlj5GK5VvWOeQR2,4y93vvzu2h8MITw7YyUTcI,5k7JSycp97vL45zSOoUsTE,65vJAh07BdwurqR9SRa6f8,2jpbtp5N679x92uB8s8p9h with Params: {} returned 403 due to None
+2025-11-27 12:14:50,535 - ERROR - Error fetching audio features: http status: 403, code: -1 - https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x,1RiCNSkK4AfT1j8ZM4JnVs,1Z2vqcRGhTiQguE9trfVRQ,15vGti1ooNZFlDUdlLukX6,7sIsMmEEegMhiyppTD6IAO,23HcRvjLCaIHtxz6Rv3ibZ,36kPlvgOwqbdMqMyeioRJN,2gejTHYAbLb8EMVrB7k3pK,0xYUMACK3aiayOD4CzqNGk,23NAh1dEhmM9T18yucH0UM,5NibsGc8WwszytE8wILA4c,1qTYDXVm0H1AtUy2V4GlSC,11iEh1busXIiKv8KKc5uFv,2VNsMolUtwBFi4HacyLkUD,1UbXqTkXWj3q5bBPX0jXot,7EMUmM1J8fOcTEiqfwFtkV,6q9TDKBinsOLU0yi1H3dHO,3fHIPPeK2iYpLA3bo89Mb2,5p3b6I2VLjNjn78L0CvR2R,5JwDOayNu8WcUHI5sgyyKA,0IEuD2KOcVqFGVcsj5aFL6,38Q3fhKB8vR9pvhGugcxbb,0O67pMPzHrycPXcZ8zZEKn,1YlfGwNizEKy299l1PVggn,17tg01y3RhlfRKMnd333yL,1wubETHu3SeJHfbz9itEH0,1S9fKs0sAdZPlL8ViOARnS,07YFNeWYEuQ4XQfDd8571k,4ssHL7bSnOAE7HjiuLx6Co,07kLShG3HTeLXTqnFCqNAJ,4jUZymsR3lkia9wkP0o9cX,7pkpWcko6KEZANj0xKsCsu,1SelttS2mueDntyefQGi7s,2je7f5dovpUabOqTSfyD5V,5QbtKOsjbEGkx0GMiQGBZt,4iN4gdJuUBW8ukOlmv3p4U,2gfn28JSINCJGLrUimmu0l,280QfKhmWGn3LbyB39aA7u,5bPVaf87iW31GGfmk2yqsd,4pOGEJRVOuaa9oyy7qTGf6,6oAP2IzmmBaFCqq7B17g1e,6Kyl2nFgU0J8WBlbBvDv6g,2x3h5JeoPNM76P3aMv03no,1WaiLsA7nJQPvl1csVsl9S,1gxCrmBSKvewYwHIA6g72x,1Z2vqcRGhTiQguE9trfVRQ,03PSDRVwlj5GK5VvWOeQR2,4y93vvzu2h8MITw7YyUTcI,5k7JSycp97vL45zSOoUsTE,65vJAh07BdwurqR9SRa6f8,2jpbtp5N679x92uB8s8p9h:
+ None, reason: None
+2025-11-27 12:14:50,536 - INFO - Collected 0 tracks.
+2025-11-27 12:15:31,844 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 12:15:31,845 - INFO - Spotify client initialized successfully.
+2025-11-27 12:15:32,281 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 12:15:32,804 - INFO - Fetched 47 top tracks for country FR.
+2025-11-27 12:15:33,167 - INFO - Fetched 49 top tracks for country BR.
+2025-11-27 12:15:33,230 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x with Params: {} returned 403 due to None
+2025-11-27 12:15:33,230 - ERROR - Error fetching audio features: http status: 403, code: -1 - https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x:
+ None, reason: None
+2025-11-27 12:15:33,232 - INFO - Collected 0 tracks.
+2025-11-27 12:15:33,232 - WARNING - Data collection returned empty DataFrame. Falling back to mock data.
+2025-11-27 12:15:33,235 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(120.47089655972235), 'std_bpm': np.float64(10.091767095294653)}
+2025-11-27 12:15:33,285 - INFO - Clustering Score: 0.3144122216724512
+2025-11-27 12:15:35,771 - INFO - Dashboard generated.
+2025-11-27 12:15:35,771 - INFO - Pipeline completed.
+2025-11-27 12:22:35,875 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 12:22:35,875 - INFO - Spotify client initialized successfully.
+2025-11-27 12:22:36,448 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 12:22:36,835 - INFO - Fetched 47 top tracks for country FR.
+2025-11-27 12:22:37,181 - INFO - Fetched 49 top tracks for country BR.
+2025-11-27 12:22:37,250 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x with Params: {} returned 403 due to None
+2025-11-27 12:22:37,250 - ERROR - Error fetching audio features: http status: 403, code: -1 - https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x:
+ None, reason: None
+2025-11-27 12:22:37,252 - INFO - Collected 0 tracks.
+2025-11-27 12:22:37,252 - WARNING - Data collection returned empty DataFrame. Falling back to mock data.
+2025-11-27 12:22:37,255 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(122.45604161453767), 'std_bpm': np.float64(8.752893628274535)}
+2025-11-27 12:22:37,308 - INFO - Clustering Score: 0.26504734837180055
+2025-11-27 12:22:39,938 - INFO - Dashboard generated.
+2025-11-27 12:22:39,938 - INFO - Pipeline completed.
+2025-11-27 12:25:04,891 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 12:25:04,892 - INFO - Spotify client initialized successfully.
+2025-11-27 12:25:05,323 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 12:25:05,640 - INFO - Fetched 47 top tracks for country FR.
+2025-11-27 12:25:05,957 - INFO - Fetched 49 top tracks for country BR.
+2025-11-27 12:25:06,024 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x with Params: {} returned 403 due to None
+2025-11-27 12:25:06,024 - ERROR - Error fetching audio features: http status: 403, code: -1 - https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x:
+ None, reason: None
+2025-11-27 12:25:06,025 - INFO - Collected 0 tracks.
+2025-11-27 12:25:06,025 - WARNING - Data collection returned empty DataFrame. Falling back to mock data.
+2025-11-27 12:25:06,027 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(119.70486596223347), 'std_bpm': np.float64(9.39210218253667)}
+2025-11-27 12:25:06,064 - INFO - Clustering Score: 0.21997446306760998
+2025-11-27 12:25:09,088 - INFO - Dashboard generated.
+2025-11-27 12:25:09,088 - INFO - Pipeline completed.
+2025-11-27 12:25:48,947 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 12:25:48,947 - INFO - Spotify client initialized successfully.
+2025-11-27 12:25:49,410 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 12:25:49,830 - INFO - Fetched 47 top tracks for country FR.
+2025-11-27 12:25:50,189 - INFO - Fetched 49 top tracks for country BR.
+2025-11-27 12:25:50,259 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x with Params: {} returned 403 due to None
+2025-11-27 12:25:50,259 - ERROR - Error fetching audio features: http status: 403, code: -1 - https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x:
+ None, reason: None
+2025-11-27 12:25:50,261 - INFO - Collected 0 tracks.
+2025-11-27 12:25:50,261 - WARNING - Data collection returned empty DataFrame. Falling back to mock data.
+2025-11-27 12:25:50,264 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(119.60592861910328), 'std_bpm': np.float64(8.923668726920614)}
+2025-11-27 12:25:50,319 - INFO - Clustering Score: 0.29640844646527226
+2025-11-27 12:25:53,061 - INFO - Dashboard generated.
+2025-11-27 12:25:53,061 - INFO - Pipeline completed.
+2025-11-27 12:28:43,280 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 12:28:43,281 - INFO - Spotify client initialized successfully.
+2025-11-27 12:28:43,927 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 12:28:44,220 - INFO - Fetched 47 top tracks for country FR.
+2025-11-27 12:28:44,584 - INFO - Fetched 49 top tracks for country BR.
+2025-11-27 12:28:44,652 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x with Params: {} returned 403 due to None
+2025-11-27 12:28:44,653 - ERROR - Error fetching audio features: http status: 403, code: -1 - https://api.spotify.com/v1/audio-features/?ids=3t6gUcGYLrUuqwpXjOFWQc,0FTmksd2dxiE5e3rWyJXs6,0hta2Lb2zKJ7kEnAEZEE3G,0InIeZW4P6VO7dUGRM4AKH,6dOtVTDdiauQNBQEDOtlAB,51rfRCiUSvxXlCSCfIztBy,2plbrEY59IikOBgBGLjaoe,3QaPy1KgI7nu9FJEQUgn6h,1KZG1H1OCugGqIRmk1wF9m,6jbYpRPTEFl1HFKHk1IC0m,4ZJ4vzLQekI0WntDbanNC7,0aB0v4027ukVziUGwVGYpG,6AI3ezQ4o3HUoP6Dhudph3,0WbMK4wrZ1wFSty9F7FCgu,7ne4VBA60CxGM75vw0EYad,2A22iI0x4EYAVXNpKPhNEM,5G2f63n7IPVPPjfNIGih7Q,3EO58D1YpHnTvBy68gK8HE,3siwsiaEoU4Kuuc9WKMUy5,3xkHsmpQCBMytMJNiDf3Ii,51ZQ1vr10ffzbwIjDCwqm4,1osfLqL6L2iQsirRf83ded,2CGNAOSuO1MEFCbBRgUzjd,2RkZ5LkEzeHGRsmDqKwmaJ,4WFgvKVfEhb3IUAFGrutTR,6wggq2ikhLMnS0o1deK2Xz,1Mzg6bu3hkCwJKEf7v49MN,3QaPy1KgI7nu9FJEQUgn6h,1UNEuG9DYOWiikf00ayr52,4iN4gdJuUBW8ukOlmv3p4U,7ifFhxRIvYbe4IuzIkY2Qi,3SKH53SPQbEnZR4cJPVaz2,2FBfpNRDEsjxgT2WKxD7Za,2oe4ERf40Mx8PWH9gtEfP0,3Byu179ofnuChb4zF1fMhu,6dOtVTDdiauQNBQEDOtlAB,5jX61gvbNenSDMldQrbtsU,4mNttG8qiVh4BKrMUrUhCI,6P3HLPsc5pWu3sZYxL0S9N,4oVMLxxYpQLYx8gx4JjuuY,4ZBslg1i1eHVOMhZZoX5fx,0qlYaRFGvgR6afy1f4BBwD,1sccu8ze6ETRiNbNH9pj5N,6C0SXfD7rR46MpWK5VJSEw,6yg2N05MAebATBiYQytC6N,1y7dY7Xu4nWM4SK2dEnoAT,7eqwODSSwRSniktCjCXZyW,2x3h5JeoPNM76P3aMv03no,2RkZ5LkEzeHGRsmDqKwmaJ,1gxCrmBSKvewYwHIA6g72x:
+ None, reason: None
+2025-11-27 12:28:44,656 - INFO - Collected 0 tracks.
+2025-11-27 12:28:44,656 - WARNING - Data collection returned empty DataFrame. Falling back to mock data.
+2025-11-27 12:28:44,660 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(121.4670774162486), 'std_bpm': np.float64(7.353137290619737)}
+2025-11-27 12:28:44,740 - INFO - Clustering Score: 0.3329939130519419
+2025-11-27 12:28:47,894 - INFO - Dashboard generated.
+2025-11-27 12:28:47,894 - INFO - Pipeline completed.
+2025-11-27 12:33:10,090 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 12:33:10,090 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 12:33:10,090 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 12:33:10,090 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 12:33:10,424 - INFO - Opened https://accounts.spotify.com/authorize?client_id=76814bb054bd4c558304c342ce904bbf&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A8888%2Fcallback&scope=user-read-private in your browser
+2025-11-27 13:40:18,523 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 13:40:18,523 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 13:40:18,524 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:40:18,524 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:40:18,524 - ERROR - Error fetching top tracks for US: [Errno 98] Address already in use
+2025-11-27 13:40:18,524 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:40:18,524 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:40:18,524 - ERROR - Error fetching top tracks for FR: [Errno 98] Address already in use
+2025-11-27 13:40:18,524 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:40:18,524 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:40:18,524 - ERROR - Error fetching top tracks for BR: [Errno 98] Address already in use
+2025-11-27 13:40:18,524 - INFO - Fetched audio features for 0 tracks.
+2025-11-27 13:40:18,525 - INFO - Collected 0 tracks.
+2025-11-27 13:40:18,525 - WARNING - Data collection returned empty DataFrame. Falling back to mock data.
+2025-11-27 13:40:18,526 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(120.09968811030723), 'std_bpm': np.float64(9.661061557310829)}
+2025-11-27 13:40:18,543 - INFO - Clustering Score: 0.3446758186526702
+2025-11-27 13:40:20,424 - INFO - Dashboard generated.
+2025-11-27 13:40:20,424 - INFO - Pipeline completed.
+2025-11-27 13:42:50,586 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 13:42:50,587 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 13:42:50,587 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:42:50,587 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:42:50,587 - ERROR - Error fetching top tracks for US: [Errno 98] Address already in use
+2025-11-27 13:42:50,587 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:42:50,587 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:42:50,587 - ERROR - Error fetching top tracks for FR: [Errno 98] Address already in use
+2025-11-27 13:42:50,587 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:42:50,587 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:42:50,587 - ERROR - Error fetching top tracks for BR: [Errno 98] Address already in use
+2025-11-27 13:42:50,587 - INFO - Fetched audio features for 0 tracks.
+2025-11-27 13:42:50,588 - INFO - Collected 0 tracks.
+2025-11-27 13:42:50,588 - WARNING - Data collection returned empty DataFrame. Falling back to mock data.
+2025-11-27 13:42:50,589 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(119.59432302295173), 'std_bpm': np.float64(10.994351441884232)}
+2025-11-27 13:42:50,606 - INFO - Clustering Score: 0.22391140644851174
+2025-11-27 13:42:52,427 - INFO - Dashboard generated.
+2025-11-27 13:42:52,427 - INFO - Pipeline completed.
+2025-11-27 13:44:29,159 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 13:44:29,159 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 13:44:29,159 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:44:29,160 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:44:29,332 - INFO - Opened https://accounts.spotify.com/authorize?client_id=76814bb054bd4c558304c342ce904bbf&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A8888%2Fcallback&scope=user-read-private in your browser
+2025-11-27 13:48:56,555 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 13:48:56,555 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 13:48:56,555 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:48:56,555 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:48:56,728 - INFO - Opened https://accounts.spotify.com/authorize?client_id=76814bb054bd4c558304c342ce904bbf&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A8888%2Fcallback&scope=user-read-private in your browser
+2025-11-27 13:54:37,797 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 13:54:37,798 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 13:54:37,798 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:54:37,798 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:54:37,798 - ERROR - Error fetching top tracks for US: [Errno 98] Address already in use
+2025-11-27 13:54:37,798 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:54:37,798 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:54:37,798 - ERROR - Error fetching top tracks for FR: [Errno 98] Address already in use
+2025-11-27 13:54:37,798 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:54:37,798 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:54:37,799 - ERROR - Error fetching top tracks for BR: [Errno 98] Address already in use
+2025-11-27 13:54:37,799 - INFO - Fetched audio features for 0 tracks.
+2025-11-27 13:54:37,799 - INFO - Collected 0 tracks.
+2025-11-27 13:54:37,799 - WARNING - Data collection returned empty DataFrame. Falling back to mock data.
+2025-11-27 13:54:37,800 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(117.16443829931433), 'std_bpm': np.float64(9.88006028018219)}
+2025-11-27 13:54:37,817 - INFO - Clustering Score: 0.27057659055044975
+2025-11-27 13:54:39,561 - INFO - Dashboard generated.
+2025-11-27 13:54:39,562 - INFO - Pipeline completed.
+2025-11-27 13:55:57,901 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 13:55:57,901 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 13:55:57,901 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 13:55:57,901 - WARNING - Using 'localhost' as a redirect URI is being deprecated. Use a loopback IP address such as 127.0.0.1 to ensure your app remains functional.
+2025-11-27 13:55:58,074 - INFO - Opened https://accounts.spotify.com/authorize?client_id=76814bb054bd4c558304c342ce904bbf&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A8888%2Fcallback&scope=user-read-private in your browser
+2025-11-27 13:58:44,795 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 13:58:44,795 - ERROR - Failed to initialize Spotify client: module 'core.config' has no attribute 'SPOTIPY_REDIRECT_URI'
+2025-11-27 13:58:44,796 - WARNING - No Spotify keys found. Using mock data.
+2025-11-27 13:58:44,797 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(121.22800674928482), 'std_bpm': np.float64(9.115971483118654)}
+2025-11-27 13:58:44,814 - INFO - Clustering Score: 0.3342696168734133
+2025-11-27 13:58:46,533 - INFO - Dashboard generated.
+2025-11-27 13:58:46,533 - INFO - Pipeline completed.
+2025-11-27 13:58:52,349 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 13:58:52,349 - ERROR - Failed to initialize Spotify client: module 'core.config' has no attribute 'SPOTIPY_REDIRECT_URI'
+2025-11-27 13:58:52,349 - WARNING - No Spotify keys found. Using mock data.
+2025-11-27 13:58:52,350 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(117.93331003498804), 'std_bpm': np.float64(9.696978715763748)}
+2025-11-27 13:58:52,368 - INFO - Clustering Score: 0.29021984038048054
+2025-11-27 13:58:54,095 - INFO - Dashboard generated.
+2025-11-27 13:58:54,095 - INFO - Pipeline completed.
+2025-11-27 13:58:59,457 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 13:58:59,457 - ERROR - Failed to initialize Spotify client: module 'core.config' has no attribute 'SPOTIPY_REDIRECT_URI'
+2025-11-27 13:58:59,457 - WARNING - No Spotify keys found. Using mock data.
+2025-11-27 13:58:59,458 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(120.8245637601078), 'std_bpm': np.float64(10.162711858593019)}
+2025-11-27 13:58:59,476 - INFO - Clustering Score: 0.3499319617272569
+2025-11-27 13:59:01,260 - INFO - Dashboard generated.
+2025-11-27 13:59:01,260 - INFO - Pipeline completed.
+2025-11-27 14:01:45,765 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 14:01:45,765 - ERROR - Failed to initialize Spotify client: module 'core.config' has no attribute 'SPOTIPY_REDIRECT_URI'
+2025-11-27 14:01:45,765 - WARNING - No Spotify keys found. Using mock data.
+2025-11-27 14:01:45,766 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(121.727936407285), 'std_bpm': np.float64(9.90561715693028)}
+2025-11-27 14:01:45,784 - INFO - Clustering Score: 0.28197513258197976
+2025-11-27 14:01:47,560 - INFO - Dashboard generated.
+2025-11-27 14:01:47,561 - INFO - Pipeline completed.
+2025-11-27 14:02:04,453 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 14:02:04,454 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 14:02:04,454 - INFO - User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2025-11-27 14:02:04,627 - INFO - Opened https://accounts.spotify.com/authorize?client_id=76814bb054bd4c558304c342ce904bbf&response_type=code&redirect_uri=http%3A%2F%2F127.0.0.1%3A8888%2Fcallback&scope=user-read-private in your browser
+2025-11-27 14:02:10,102 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 14:02:10,766 - INFO - Fetched 25 top tracks for country FR.
+2025-11-27 14:02:11,471 - INFO - Fetched 25 top tracks for country BR.
+2025-11-27 14:02:11,546 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/audio-features/?ids=1LY3GhF0zxIVgbYEQjCbUO,4mNttG8qiVh4BKrMUrUhCI,7eqwODSSwRSniktCjCXZyW,4MSj19TwYBLgDFj3ddEeco,5nPbKG04fhLkIAjcPFaZq7,1RiCNSkK4AfT1j8ZM4JnVs,0qlYaRFGvgR6afy1f4BBwD,4oVMLxxYpQLYx8gx4JjuuY,6wggq2ikhLMnS0o1deK2Xz,3xkHsmpQCBMytMJNiDf3Ii,2oe4ERf40Mx8PWH9gtEfP0,1Mzg6bu3hkCwJKEf7v49MN,7ifFhxRIvYbe4IuzIkY2Qi,5jX61gvbNenSDMldQrbtsU,1sccu8ze6ETRiNbNH9pj5N,15vGti1ooNZFlDUdlLukX6,3Byu179ofnuChb4zF1fMhu,2RkZ5LkEzeHGRsmDqKwmaJ,3SKH53SPQbEnZR4cJPVaz2,4ZBslg1i1eHVOMhZZoX5fx,3QaPy1KgI7nu9FJEQUgn6h,7BRD7x5pt8Lqa1eGYC4dzj,1UNEuG9DYOWiikf00ayr52,4WFgvKVfEhb3IUAFGrutTR,6dOtVTDdiauQNBQEDOtlAB,1LY3GhF0zxIVgbYEQjCbUO,4mNttG8qiVh4BKrMUrUhCI,7eqwODSSwRSniktCjCXZyW,4MSj19TwYBLgDFj3ddEeco,5nPbKG04fhLkIAjcPFaZq7,1RiCNSkK4AfT1j8ZM4JnVs,0qlYaRFGvgR6afy1f4BBwD,4oVMLxxYpQLYx8gx4JjuuY,6wggq2ikhLMnS0o1deK2Xz,3xkHsmpQCBMytMJNiDf3Ii,2oe4ERf40Mx8PWH9gtEfP0,1Mzg6bu3hkCwJKEf7v49MN,7ifFhxRIvYbe4IuzIkY2Qi,5jX61gvbNenSDMldQrbtsU,1sccu8ze6ETRiNbNH9pj5N,15vGti1ooNZFlDUdlLukX6,3Byu179ofnuChb4zF1fMhu,2RkZ5LkEzeHGRsmDqKwmaJ,3SKH53SPQbEnZR4cJPVaz2,4ZBslg1i1eHVOMhZZoX5fx,3QaPy1KgI7nu9FJEQUgn6h,7BRD7x5pt8Lqa1eGYC4dzj,1UNEuG9DYOWiikf00ayr52,4WFgvKVfEhb3IUAFGrutTR,6dOtVTDdiauQNBQEDOtlAB with Params: {} returned 403 due to None
+2025-11-27 14:02:11,546 - ERROR - Error fetching audio features: http status: 403, code: -1 - https://api.spotify.com/v1/audio-features/?ids=1LY3GhF0zxIVgbYEQjCbUO,4mNttG8qiVh4BKrMUrUhCI,7eqwODSSwRSniktCjCXZyW,4MSj19TwYBLgDFj3ddEeco,5nPbKG04fhLkIAjcPFaZq7,1RiCNSkK4AfT1j8ZM4JnVs,0qlYaRFGvgR6afy1f4BBwD,4oVMLxxYpQLYx8gx4JjuuY,6wggq2ikhLMnS0o1deK2Xz,3xkHsmpQCBMytMJNiDf3Ii,2oe4ERf40Mx8PWH9gtEfP0,1Mzg6bu3hkCwJKEf7v49MN,7ifFhxRIvYbe4IuzIkY2Qi,5jX61gvbNenSDMldQrbtsU,1sccu8ze6ETRiNbNH9pj5N,15vGti1ooNZFlDUdlLukX6,3Byu179ofnuChb4zF1fMhu,2RkZ5LkEzeHGRsmDqKwmaJ,3SKH53SPQbEnZR4cJPVaz2,4ZBslg1i1eHVOMhZZoX5fx,3QaPy1KgI7nu9FJEQUgn6h,7BRD7x5pt8Lqa1eGYC4dzj,1UNEuG9DYOWiikf00ayr52,4WFgvKVfEhb3IUAFGrutTR,6dOtVTDdiauQNBQEDOtlAB,1LY3GhF0zxIVgbYEQjCbUO,4mNttG8qiVh4BKrMUrUhCI,7eqwODSSwRSniktCjCXZyW,4MSj19TwYBLgDFj3ddEeco,5nPbKG04fhLkIAjcPFaZq7,1RiCNSkK4AfT1j8ZM4JnVs,0qlYaRFGvgR6afy1f4BBwD,4oVMLxxYpQLYx8gx4JjuuY,6wggq2ikhLMnS0o1deK2Xz,3xkHsmpQCBMytMJNiDf3Ii,2oe4ERf40Mx8PWH9gtEfP0,1Mzg6bu3hkCwJKEf7v49MN,7ifFhxRIvYbe4IuzIkY2Qi,5jX61gvbNenSDMldQrbtsU,1sccu8ze6ETRiNbNH9pj5N,15vGti1ooNZFlDUdlLukX6,3Byu179ofnuChb4zF1fMhu,2RkZ5LkEzeHGRsmDqKwmaJ,3SKH53SPQbEnZR4cJPVaz2,4ZBslg1i1eHVOMhZZoX5fx,3QaPy1KgI7nu9FJEQUgn6h,7BRD7x5pt8Lqa1eGYC4dzj,1UNEuG9DYOWiikf00ayr52,4WFgvKVfEhb3IUAFGrutTR,6dOtVTDdiauQNBQEDOtlAB:
+ None, reason: None
+2025-11-27 14:02:11,548 - INFO - Collected 0 tracks.
+2025-11-27 14:02:11,548 - WARNING - Data collection returned empty DataFrame. Falling back to mock data.
+2025-11-27 14:02:11,551 - INFO - KPIs: {'total_tracks': 50, 'avg_bpm': np.float64(118.07883736545396), 'std_bpm': np.float64(10.570991323740104)}
+2025-11-27 14:02:11,580 - INFO - Clustering Score: 0.27959140613486444
+2025-11-27 14:02:13,497 - INFO - Dashboard generated.
+2025-11-27 14:02:13,497 - INFO - Pipeline completed.
+2025-11-27 14:06:54,849 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 14:06:54,850 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 14:06:55,447 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 14:06:56,170 - INFO - Fetched 25 top tracks for country FR.
+2025-11-27 14:06:56,689 - INFO - Fetched 25 top tracks for country BR.
+2025-11-27 14:06:56,841 - INFO - Fetched info for 16 artists.
+2025-11-27 14:06:56,842 - INFO - Collected 75 tracks.
+2025-11-27 14:06:56,843 - INFO - KPIs: {'total_tracks': 75}
+2025-11-27 14:06:56,872 - INFO - Clustering Score: 0.5037580890300173
+2025-11-27 14:06:58,524 - INFO - Dashboard generated.
+2025-11-27 14:06:58,524 - INFO - Pipeline completed.
+2025-11-27 14:08:30,359 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 14:08:30,359 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 14:08:31,096 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 14:08:31,620 - INFO - Fetched 25 top tracks for country FR.
+2025-11-27 14:08:32,204 - INFO - Fetched 25 top tracks for country BR.
+2025-11-27 14:08:32,337 - INFO - Fetched info for 16 artists.
+2025-11-27 14:08:32,338 - INFO - Collected 75 tracks.
+2025-11-27 14:08:32,341 - INFO - KPIs: {'total_tracks': 75}
+2025-11-27 14:08:32,368 - INFO - Clustering Score: 0.5037580890300173
+2025-11-27 14:08:33,917 - INFO - Dashboard generated.
+2025-11-27 14:08:33,917 - INFO - Pipeline completed.
+2025-11-27 14:10:03,779 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 14:10:03,779 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 14:10:04,467 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 14:10:05,130 - INFO - Fetched 25 top tracks for country FR.
+2025-11-27 14:10:05,646 - INFO - Fetched 25 top tracks for country BR.
+2025-11-27 14:10:05,794 - INFO - Fetched info for 16 artists.
+2025-11-27 14:10:05,796 - INFO - Collected 75 tracks.
+2025-11-27 14:10:05,798 - INFO - KPIs: {'total_tracks': 75}
+2025-11-27 14:10:05,822 - INFO - Clustering Score: 0.5037580890300173
+2025-11-27 14:10:07,455 - INFO - Dashboard generated.
+2025-11-27 14:10:07,455 - INFO - Pipeline completed.
+2025-11-27 14:10:25,796 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 14:10:25,797 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 14:10:26,482 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 14:10:27,231 - INFO - Fetched 25 top tracks for country FR.
+2025-11-27 14:10:27,776 - INFO - Fetched 25 top tracks for country BR.
+2025-11-27 14:10:28,332 - INFO - Fetched 25 top tracks for country DE.
+2025-11-27 14:10:28,828 - INFO - Fetched 25 top tracks for country JP.
+2025-11-27 14:10:29,451 - INFO - Fetched 25 top tracks for country IT.
+2025-11-27 14:10:29,928 - INFO - Fetched 25 top tracks for country ES.
+2025-11-27 14:10:30,477 - INFO - Fetched 25 top tracks for country CA.
+2025-11-27 14:10:31,136 - INFO - Fetched 25 top tracks for country AU.
+2025-11-27 14:10:31,647 - INFO - Fetched 25 top tracks for country MX.
+2025-11-27 14:10:31,774 - INFO - Fetched info for 16 artists.
+2025-11-27 14:10:31,776 - INFO - Collected 250 tracks.
+2025-11-27 14:10:31,777 - INFO - KPIs: {'total_tracks': 250}
+2025-11-27 14:10:31,804 - INFO - Clustering Score: 0.6543868321103345
+2025-11-27 14:10:33,532 - INFO - Dashboard generated.
+2025-11-27 14:10:33,533 - INFO - Pipeline completed.
