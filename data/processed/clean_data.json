@@ -1,1 +1,416 @@
-[{"source":"deezer","name":"Jul","raw_text":"Jul music artist deezer chart","clean_text":"jul music artist deezer chart"},{"source":"deezer","name":"GIMS","raw_text":"GIMS music artist deezer chart","clean_text":"gims music artist deezer chart"},{"source":"deezer","name":"Werenoi","raw_text":"Werenoi music artist deezer chart","clean_text":"werenoi music artist deezer chart"},{"source":"deezer","name":"Ninho","raw_text":"Ninho music artist deezer chart","clean_text":"ninho music artist deezer chart"},{"source":"deezer","name":"disiz","raw_text":"disiz music artist deezer chart","clean_text":"disiz music artist deezer chart"},{"source":"deezer","name":"Orelsan","raw_text":"Orelsan music artist deezer chart","clean_text":"orelsan music artist deezer chart"},{"source":"deezer","name":"Aya Nakamura","raw_text":"Aya Nakamura music artist deezer chart","clean_text":"aya nakamura music artist deezer chart"},{"source":"deezer","name":"Theodora","raw_text":"Theodora music artist deezer chart","clean_text":"theodora music artist deezer chart"},{"source":"deezer","name":"Bouss","raw_text":"Bouss music artist deezer chart","clean_text":"bouss music artist deezer chart"},{"source":"deezer","name":"PNL","raw_text":"PNL music artist deezer chart","clean_text":"pnl music artist deezer chart"},{"source":"lastfm","name":"The Weeknd","raw_text":"The Weeknd music artist popular with 5077597 listeners","clean_text":"weeknd music artist popular with 5077597 listeners"},{"source":"lastfm","name":"Ariana Grande","raw_text":"Ariana Grande music artist popular with 4230971 listeners","clean_text":"ariana grande music artist popular with 4230971 listeners"},{"source":"lastfm","name":"Radiohead","raw_text":"Radiohead music artist popular with 7970958 listeners","clean_text":"radiohead music artist popular with 7970958 listeners"},{"source":"lastfm","name":"Tyler, The Creator","raw_text":"Tyler, The Creator music artist popular with 4118234 listeners","clean_text":"tyler creator music artist popular with 4118234 listeners"},{"source":"lastfm","name":"Taylor Swift","raw_text":"Taylor Swift music artist popular with 5708418 listeners","clean_text":"taylor swift music artist popular with 5708418 listeners"},{"source":"lastfm","name":"Kendrick Lamar","raw_text":"Kendrick Lamar music artist popular with 4876503 listeners","clean_text":"kendrick lamar music artist popular with 4876503 listeners"},{"source":"lastfm","name":"Kanye West","raw_text":"Kanye West music artist popular with 7720452 listeners","clean_text":"kanye west music artist popular with 7720452 listeners"},{"source":"lastfm","name":"Lady Gaga","raw_text":"Lady Gaga music artist popular with 7463292 listeners","clean_text":"lady gaga music artist popular with 7463292 listeners"},{"source":"lastfm","name":"Sabrina Carpenter","raw_text":"Sabrina Carpenter music artist popular with 3010459 listeners","clean_text":"sabrina carpenter music artist popular with 3010459 listeners"},{"source":"lastfm","name":"Drake","raw_text":"Drake music artist popular with 6503200 listeners","clean_text":"drake music artist popular with 6503200 listeners"},{"source":"lastfm","name":"Charli xcx","raw_text":"Charli xcx music artist popular with 3569206 listeners","clean_text":"charli xcx music artist popular with 3569206 listeners"},{"source":"lastfm","name":"Rihanna","raw_text":"Rihanna music artist popular with 8032597 listeners","clean_text":"rihanna music artist popular with 8032597 listeners"},{"source":"lastfm","name":"Billie Eilish","raw_text":"Billie Eilish music artist popular with 4014679 listeners","clean_text":"billie eilish music artist popular with 4014679 listeners"},{"source":"lastfm","name":"Tame Impala","raw_text":"Tame Impala music artist popular with 4008493 listeners","clean_text":"tame impala music artist popular with 4008493 listeners"},{"source":"lastfm","name":"Lana Del Rey","raw_text":"Lana Del Rey music artist popular with 5038750 listeners","clean_text":"lana del rey music artist popular with 5038750 listeners"},{"source":"lastfm","name":"Arctic Monkeys","raw_text":"Arctic Monkeys music artist popular with 6860799 listeners","clean_text":"arctic monkeys music artist popular with 6860799 listeners"},{"source":"lastfm","name":"Frank Ocean","raw_text":"Frank Ocean music artist popular with 4070497 listeners","clean_text":"frank ocean music artist popular with 4070497 listeners"},{"source":"lastfm","name":"The Neighbourhood","raw_text":"The Neighbourhood music artist popular with 3741909 listeners","clean_text":"neighbourhood music artist popular with 3741909 listeners"},{"source":"lastfm","name":"Doja Cat","raw_text":"Doja Cat music artist popular with 3423885 listeners","clean_text":"doja cat music artist popular with 3423885 listeners"},{"source":"lastfm","name":"Paramore","raw_text":"Paramore music artist popular with 5400791 listeners","clean_text":"paramore music artist popular with 5400791 listeners"},{"source":"lastfm","name":"Gorillaz","raw_text":"Gorillaz music artist popular with 6619008 listeners","clean_text":"gorillaz music artist popular with 6619008 listeners"},{"source":"lastfm","name":"The Mar\u00edas","raw_text":"The Mar\u00edas music artist popular with 2249288 listeners","clean_text":"mar\u00edas music artist popular with 2249288 listeners"},{"source":"lastfm","name":"Justin Bieber","raw_text":"Justin Bieber music artist popular with 4524892 listeners","clean_text":"justin bieber music artist popular with 4524892 listeners"},{"source":"lastfm","name":"Chappell Roan","raw_text":"Chappell Roan music artist popular with 2381977 listeners","clean_text":"chappell roan music artist popular with 2381977 listeners"},{"source":"lastfm","name":"Travis Scott","raw_text":"Travis Scott music artist popular with 3174367 listeners","clean_text":"travis scott music artist popular with 3174367 listeners"},{"source":"lastfm","name":"The Smiths","raw_text":"The Smiths music artist popular with 4849477 listeners","clean_text":"smiths music artist popular with 4849477 listeners"},{"source":"lastfm","name":"Deftones","raw_text":"Deftones music artist popular with 4020728 listeners","clean_text":"deftones music artist popular with 4020728 listeners"},{"source":"lastfm","name":"Linkin Park","raw_text":"Linkin Park music artist popular with 6704410 listeners","clean_text":"linkin park music artist popular with 6704410 listeners"},{"source":"lastfm","name":"PinkPantheress","raw_text":"PinkPantheress music artist popular with 2703327 listeners","clean_text":"pinkpantheress music artist popular with 2703327 listeners"},{"source":"lastfm","name":"Coldplay","raw_text":"Coldplay music artist popular with 8851837 listeners","clean_text":"coldplay music artist popular with 8851837 listeners"},{"source":"lastfm","name":"Fleetwood Mac","raw_text":"Fleetwood Mac music artist popular with 4651269 listeners","clean_text":"fleetwood mac music artist popular with 4651269 listeners"},{"source":"lastfm","name":"SZA","raw_text":"SZA music artist popular with 3333628 listeners","clean_text":"sza music artist popular with 3333628 listeners"},{"source":"lastfm","name":"Playboi Carti","raw_text":"Playboi Carti music artist popular with 2342952 listeners","clean_text":"playboi carti music artist popular with 2342952 listeners"},{"source":"lastfm","name":"Clairo","raw_text":"Clairo music artist popular with 2760614 listeners","clean_text":"clairo music artist popular with 2760614 listeners"},{"source":"lastfm","name":"Michael Jackson","raw_text":"Michael Jackson music artist popular with 6573239 listeners","clean_text":"michael jackson music artist popular with 6573239 listeners"},{"source":"lastfm","name":"Childish Gambino","raw_text":"Childish Gambino music artist popular with 3614153 listeners","clean_text":"childish gambino music artist popular with 3614153 listeners"},{"source":"lastfm","name":"Olivia Rodrigo","raw_text":"Olivia Rodrigo music artist popular with 2921257 listeners","clean_text":"olivia rodrigo music artist popular with 2921257 listeners"},{"source":"lastfm","name":"Mitski","raw_text":"Mitski music artist popular with 3064538 listeners","clean_text":"mitski music artist popular with 3064538 listeners"},{"source":"lastfm","name":"Tate McRae","raw_text":"Tate McRae music artist popular with 2095602 listeners","clean_text":"tate mcrae music artist popular with 2095602 listeners"},{"source":"lastfm","name":"Bruno Mars","raw_text":"Bruno Mars music artist popular with 4958585 listeners","clean_text":"bruno mars music artist popular with 4958585 listeners"},{"source":"lastfm","name":"A$AP Rocky","raw_text":"A$AP Rocky music artist popular with 3217237 listeners","clean_text":"aap rocky music artist popular with 3217237 listeners"},{"source":"lastfm","name":"TV Girl","raw_text":"TV Girl music artist popular with 2647798 listeners","clean_text":"girl music artist popular with 2647798 listeners"},{"source":"lastfm","name":"Future","raw_text":"Future music artist popular with 3065931 listeners","clean_text":"future music artist popular with 3065931 listeners"},{"source":"lastfm","name":"Mac DeMarco","raw_text":"Mac DeMarco music artist popular with 3079063 listeners","clean_text":"mac demarco music artist popular with 3079063 listeners"},{"source":"lastfm","name":"Lorde","raw_text":"Lorde music artist popular with 3574207 listeners","clean_text":"lorde music artist popular with 3574207 listeners"},{"source":"lastfm","name":"Nirvana","raw_text":"Nirvana music artist popular with 7313763 listeners","clean_text":"nirvana music artist popular with 7313763 listeners"},{"source":"lastfm","name":"Joji","raw_text":"Joji music artist popular with 2805169 listeners","clean_text":"joji music artist popular with 2805169 listeners"},{"source":"lastfm","name":"beabadoobee","raw_text":"beabadoobee music artist popular with 2440003 listeners","clean_text":"beabadoobee music artist popular with 2440003 listeners"},{"source":"lastfm","name":"Beyonc\u00e9","raw_text":"Beyonc\u00e9 music artist popular with 6204490 listeners","clean_text":"beyonc\u00e9 music artist popular with 6204490 listeners"},{"source":"lastfm","name":"The Beatles","raw_text":"The Beatles music artist popular with 6319875 listeners","clean_text":"beatles music artist popular with 6319875 listeners"},{"source":"spotify","name":"SCH","raw_text":"SCH french rap pop urbaine","clean_text":"sch french rap pop urbaine"},{"source":"spotify","name":"Damso","raw_text":"Damso french rap pop urbaine french r&b","clean_text":"damso french rap pop urbaine french"},{"source":"spotify","name":"SDM","raw_text":"SDM french rap french r&b pop urbaine","clean_text":"sdm french rap french pop urbaine"},{"source":"spotify","name":"L2B","raw_text":"L2B french rap french r&b","clean_text":"l2b french rap french"},{"source":"spotify","name":"Hamza","raw_text":"Hamza french rap pop urbaine french r&b","clean_text":"hamza french rap pop urbaine french"},{"source":"spotify","name":"Tiakola","raw_text":"Tiakola french rap pop urbaine french r&b","clean_text":"tiakola french rap pop urbaine french"},{"source":"spotify","name":"La Mano 1.9","raw_text":"La Mano 1.9 french rap","clean_text":"mano french rap"},{"source":"spotify","name":"Niska","raw_text":"Niska french rap pop urbaine french r&b","clean_text":"niska french rap pop urbaine french"},{"source":"spotify","name":"PLK","raw_text":"PLK french rap pop urbaine","clean_text":"plk french rap pop urbaine"}]
+[
+    {
+        "source":"deezer",
+        "name":"Jul",
+        "raw_text":"Jul music artist deezer chart position 1",
+        "clean_text":"jul music artist deezer chart position"
+    },
+    {
+        "source":"deezer",
+        "name":"GIMS",
+        "raw_text":"GIMS music artist deezer chart position 2",
+        "clean_text":"gims music artist deezer chart position"
+    },
+    {
+        "source":"deezer",
+        "name":"Werenoi",
+        "raw_text":"Werenoi music artist deezer chart position 3",
+        "clean_text":"werenoi music artist deezer chart position"
+    },
+    {
+        "source":"deezer",
+        "name":"Ninho",
+        "raw_text":"Ninho music artist deezer chart position 4",
+        "clean_text":"ninho music artist deezer chart position"
+    },
+    {
+        "source":"deezer",
+        "name":"disiz",
+        "raw_text":"disiz music artist deezer chart position 5",
+        "clean_text":"disiz music artist deezer chart position"
+    },
+    {
+        "source":"deezer",
+        "name":"Orelsan",
+        "raw_text":"Orelsan music artist deezer chart position 6",
+        "clean_text":"orelsan music artist deezer chart position"
+    },
+    {
+        "source":"deezer",
+        "name":"Aya Nakamura",
+        "raw_text":"Aya Nakamura music artist deezer chart position 7",
+        "clean_text":"aya nakamura music artist deezer chart position"
+    },
+    {
+        "source":"deezer",
+        "name":"Theodora",
+        "raw_text":"Theodora music artist deezer chart position 8",
+        "clean_text":"theodora music artist deezer chart position"
+    },
+    {
+        "source":"deezer",
+        "name":"Bouss",
+        "raw_text":"Bouss music artist deezer chart position 9",
+        "clean_text":"bouss music artist deezer chart position"
+    },
+    {
+        "source":"deezer",
+        "name":"PNL",
+        "raw_text":"PNL music artist deezer chart position 10",
+        "clean_text":"pnl music artist deezer chart position"
+    },
+    {
+        "source":"lastfm",
+        "name":"The Weeknd",
+        "raw_text":"The Weeknd music artist popular with 5077597 listeners and 1041040025 playcount",
+        "clean_text":"weeknd music artist popular 5077597 listeners 1041040025 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Ariana Grande",
+        "raw_text":"Ariana Grande music artist popular with 4230971 listeners and 1013760426 playcount",
+        "clean_text":"ariana grande music artist popular 4230971 listeners 1013760426 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Radiohead",
+        "raw_text":"Radiohead music artist popular with 7970958 listeners and 1288159428 playcount",
+        "clean_text":"radiohead music artist popular 7970958 listeners 1288159428 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Tyler, The Creator",
+        "raw_text":"Tyler, The Creator music artist popular with 4118234 listeners and 980398408 playcount",
+        "clean_text":"tyler creator music artist popular 4118234 listeners 980398408 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Taylor Swift",
+        "raw_text":"Taylor Swift music artist popular with 5708418 listeners and 3466016119 playcount",
+        "clean_text":"taylor swift music artist popular 5708418 listeners 3466016119 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Kendrick Lamar",
+        "raw_text":"Kendrick Lamar music artist popular with 4876503 listeners and 968744159 playcount",
+        "clean_text":"kendrick lamar music artist popular 4876503 listeners 968744159 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Kanye West",
+        "raw_text":"Kanye West music artist popular with 7720452 listeners and 1435297608 playcount",
+        "clean_text":"kanye west music artist popular 7720452 listeners 1435297608 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Lady Gaga",
+        "raw_text":"Lady Gaga music artist popular with 7463292 listeners and 971215058 playcount",
+        "clean_text":"lady gaga music artist popular 7463292 listeners 971215058 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Sabrina Carpenter",
+        "raw_text":"Sabrina Carpenter music artist popular with 3010459 listeners and 560359888 playcount",
+        "clean_text":"sabrina carpenter music artist popular 3010459 listeners 560359888 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Drake",
+        "raw_text":"Drake music artist popular with 6503200 listeners and 1063753150 playcount",
+        "clean_text":"drake music artist popular 6503200 listeners 1063753150 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Charli xcx",
+        "raw_text":"Charli xcx music artist popular with 3569206 listeners and 650995645 playcount",
+        "clean_text":"charli xcx music artist popular 3569206 listeners 650995645 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Rihanna",
+        "raw_text":"Rihanna music artist popular with 8032597 listeners and 559169382 playcount",
+        "clean_text":"rihanna music artist popular 8032597 listeners 559169382 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Billie Eilish",
+        "raw_text":"Billie Eilish music artist popular with 4014679 listeners and 775889810 playcount",
+        "clean_text":"billie eilish music artist popular 4014679 listeners 775889810 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Tame Impala",
+        "raw_text":"Tame Impala music artist popular with 4008493 listeners and 369768396 playcount",
+        "clean_text":"tame impala music artist popular 4008493 listeners 369768396 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Lana Del Rey",
+        "raw_text":"Lana Del Rey music artist popular with 5038750 listeners and 1465355314 playcount",
+        "clean_text":"lana del rey music artist popular 5038750 listeners 1465355314 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Arctic Monkeys",
+        "raw_text":"Arctic Monkeys music artist popular with 6860799 listeners and 887927141 playcount",
+        "clean_text":"arctic monkeys music artist popular 6860799 listeners 887927141 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Frank Ocean",
+        "raw_text":"Frank Ocean music artist popular with 4070497 listeners and 725780453 playcount",
+        "clean_text":"frank ocean music artist popular 4070497 listeners 725780453 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"The Neighbourhood",
+        "raw_text":"The Neighbourhood music artist popular with 3741909 listeners and 358798175 playcount",
+        "clean_text":"neighbourhood music artist popular 3741909 listeners 358798175 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Doja Cat",
+        "raw_text":"Doja Cat music artist popular with 3423885 listeners and 430020460 playcount",
+        "clean_text":"doja cat music artist popular 3423885 listeners 430020460 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Paramore",
+        "raw_text":"Paramore music artist popular with 5400791 listeners and 545185862 playcount",
+        "clean_text":"paramore music artist popular 5400791 listeners 545185862 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Gorillaz",
+        "raw_text":"Gorillaz music artist popular with 6619008 listeners and 478151112 playcount",
+        "clean_text":"gorillaz music artist popular 6619008 listeners 478151112 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"The Mar\u00edas",
+        "raw_text":"The Mar\u00edas music artist popular with 2249288 listeners and 193809929 playcount",
+        "clean_text":"mar\u00edas music artist popular 2249288 listeners 193809929 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Justin Bieber",
+        "raw_text":"Justin Bieber music artist popular with 4524892 listeners and 289322414 playcount",
+        "clean_text":"justin bieber music artist popular 4524892 listeners 289322414 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Chappell Roan",
+        "raw_text":"Chappell Roan music artist popular with 2381977 listeners and 301258105 playcount",
+        "clean_text":"chappell roan music artist popular 2381977 listeners 301258105 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Travis Scott",
+        "raw_text":"Travis Scott music artist popular with 3174367 listeners and 639240744 playcount",
+        "clean_text":"travis scott music artist popular 3174367 listeners 639240744 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"The Smiths",
+        "raw_text":"The Smiths music artist popular with 4849477 listeners and 502118555 playcount",
+        "clean_text":"smiths music artist popular 4849477 listeners 502118555 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Deftones",
+        "raw_text":"Deftones music artist popular with 4020728 listeners and 515854130 playcount",
+        "clean_text":"deftones music artist popular 4020728 listeners 515854130 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Linkin Park",
+        "raw_text":"Linkin Park music artist popular with 6704410 listeners and 692662238 playcount",
+        "clean_text":"linkin park music artist popular 6704410 listeners 692662238 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"PinkPantheress",
+        "raw_text":"PinkPantheress music artist popular with 2703327 listeners and 263698816 playcount",
+        "clean_text":"pinkpantheress music artist popular 2703327 listeners 263698816 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Coldplay",
+        "raw_text":"Coldplay music artist popular with 8851837 listeners and 756638045 playcount",
+        "clean_text":"coldplay music artist popular 8851837 listeners 756638045 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Fleetwood Mac",
+        "raw_text":"Fleetwood Mac music artist popular with 4651269 listeners and 269926472 playcount",
+        "clean_text":"fleetwood mac music artist popular 4651269 listeners 269926472 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"SZA",
+        "raw_text":"SZA music artist popular with 3333628 listeners and 551198301 playcount",
+        "clean_text":"sza music artist popular 3333628 listeners 551198301 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Playboi Carti",
+        "raw_text":"Playboi Carti music artist popular with 2342952 listeners and 720290778 playcount",
+        "clean_text":"playboi carti music artist popular 2342952 listeners 720290778 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Clairo",
+        "raw_text":"Clairo music artist popular with 2760614 listeners and 317207339 playcount",
+        "clean_text":"clairo music artist popular 2760614 listeners 317207339 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Michael Jackson",
+        "raw_text":"Michael Jackson music artist popular with 6573239 listeners and 325804908 playcount",
+        "clean_text":"michael jackson music artist popular 6573239 listeners 325804908 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Childish Gambino",
+        "raw_text":"Childish Gambino music artist popular with 3614153 listeners and 304001869 playcount",
+        "clean_text":"childish gambino music artist popular 3614153 listeners 304001869 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Olivia Rodrigo",
+        "raw_text":"Olivia Rodrigo music artist popular with 2921257 listeners and 517441355 playcount",
+        "clean_text":"olivia rodrigo music artist popular 2921257 listeners 517441355 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Mitski",
+        "raw_text":"Mitski music artist popular with 3064538 listeners and 605713599 playcount",
+        "clean_text":"mitski music artist popular 3064538 listeners 605713599 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Tate McRae",
+        "raw_text":"Tate McRae music artist popular with 2095602 listeners and 231095452 playcount",
+        "clean_text":"tate mcrae music artist popular 2095602 listeners 231095452 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Bruno Mars",
+        "raw_text":"Bruno Mars music artist popular with 4958585 listeners and 265021944 playcount",
+        "clean_text":"bruno mars music artist popular 4958585 listeners 265021944 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"A$AP Rocky",
+        "raw_text":"A$AP Rocky music artist popular with 3217237 listeners and 316460617 playcount",
+        "clean_text":"aap rocky music artist popular 3217237 listeners 316460617 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"TV Girl",
+        "raw_text":"TV Girl music artist popular with 2647798 listeners and 262009286 playcount",
+        "clean_text":"girl music artist popular 2647798 listeners 262009286 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Future",
+        "raw_text":"Future music artist popular with 3065931 listeners and 425514141 playcount",
+        "clean_text":"future music artist popular 3065931 listeners 425514141 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Mac DeMarco",
+        "raw_text":"Mac DeMarco music artist popular with 3079063 listeners and 318836212 playcount",
+        "clean_text":"mac demarco music artist popular 3079063 listeners 318836212 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Lorde",
+        "raw_text":"Lorde music artist popular with 3574207 listeners and 414919537 playcount",
+        "clean_text":"lorde music artist popular 3574207 listeners 414919537 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Nirvana",
+        "raw_text":"Nirvana music artist popular with 7313763 listeners and 553996158 playcount",
+        "clean_text":"nirvana music artist popular 7313763 listeners 553996158 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Joji",
+        "raw_text":"Joji music artist popular with 2805169 listeners and 325161167 playcount",
+        "clean_text":"joji music artist popular 2805169 listeners 325161167 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"beabadoobee",
+        "raw_text":"beabadoobee music artist popular with 2440003 listeners and 286917118 playcount",
+        "clean_text":"beabadoobee music artist popular 2440003 listeners 286917118 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"Beyonc\u00e9",
+        "raw_text":"Beyonc\u00e9 music artist popular with 6204490 listeners and 663901078 playcount",
+        "clean_text":"beyonc\u00e9 music artist popular 6204490 listeners 663901078 playcount"
+    },
+    {
+        "source":"lastfm",
+        "name":"The Beatles",
+        "raw_text":"The Beatles music artist popular with 6319875 listeners and 1053011093 playcount",
+        "clean_text":"beatles music artist popular 6319875 listeners 1053011093 playcount"
+    },
+    {
+        "source":"spotify",
+        "name":"SCH",
+        "raw_text":"SCH french rap pop urbaine popularity 72",
+        "clean_text":"sch french rap pop urbaine popularity"
+    },
+    {
+        "source":"spotify",
+        "name":"Damso",
+        "raw_text":"Damso french rap pop urbaine french r&b popularity 76",
+        "clean_text":"damso french rap pop urbaine french popularity"
+    },
+    {
+        "source":"spotify",
+        "name":"SDM",
+        "raw_text":"SDM french rap french r&b pop urbaine popularity 76",
+        "clean_text":"sdm french rap french pop urbaine popularity"
+    },
+    {
+        "source":"spotify",
+        "name":"L2B",
+        "raw_text":"L2B french rap french r&b popularity 74",
+        "clean_text":"l2b french rap french popularity"
+    },
+    {
+        "source":"spotify",
+        "name":"Hamza",
+        "raw_text":"Hamza french rap pop urbaine french r&b popularity 74",
+        "clean_text":"hamza french rap pop urbaine french popularity"
+    },
+    {
+        "source":"spotify",
+        "name":"Tiakola",
+        "raw_text":"Tiakola french rap pop urbaine french r&b popularity 74",
+        "clean_text":"tiakola french rap pop urbaine french popularity"
+    },
+    {
+        "source":"spotify",
+        "name":"La Mano 1.9",
+        "raw_text":"La Mano 1.9 french rap popularity 74",
+        "clean_text":"mano french rap popularity"
+    },
+    {
+        "source":"spotify",
+        "name":"Niska",
+        "raw_text":"Niska french rap pop urbaine french r&b popularity 73",
+        "clean_text":"niska french rap pop urbaine french popularity"
+    },
+    {
+        "source":"spotify",
+        "name":"PLK",
+        "raw_text":"PLK french rap pop urbaine popularity 73",
+        "clean_text":"plk french rap pop urbaine popularity"
+    }
+]

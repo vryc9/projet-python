@@ -19,11 +19,11 @@
             50
         ],
         [
-            "with",
+            "listeners",
             50
         ],
         [
-            "listeners",
+            "playcount",
             50
         ],
         [
@@ -39,13 +39,13 @@
             10
         ],
         [
-            "rap",
-            9
+            "position",
+            10
         ],
         [
-            "pop",
-            7
+            "rap",
+            9
         ]
     ],
-    "avg_length": 6.898550724637682
+    "avg_length": 7.898550724637682
 }
