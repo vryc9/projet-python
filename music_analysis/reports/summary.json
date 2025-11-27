@@ -1,0 +1,51 @@
+{
+    "total_docs": 69,
+    "by_source": {
+        "lastfm": 50,
+        "deezer": 10,
+        "spotify": 9
+    },
+    "top_keywords": [
+        [
+            "music",
+            60
+        ],
+        [
+            "artist",
+            60
+        ],
+        [
+            "popular",
+            50
+        ],
+        [
+            "with",
+            50
+        ],
+        [
+            "listeners",
+            50
+        ],
+        [
+            "french",
+            15
+        ],
+        [
+            "deezer",
+            10
+        ],
+        [
+            "chart",
+            10
+        ],
+        [
+            "rap",
+            9
+        ],
+        [
+            "pop",
+            7
+        ]
+    ],
+    "avg_length": 6.898550724637682
+}
