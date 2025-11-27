@@ -93,14 +93,29 @@ class GeniusFetcher:
             logging.error(f"Genius API error: {e}")
             return None
 
-    # Note: Genius API returns a URL to the lyrics, not the lyrics themselves directly in the search.
-    # We would need to scrape the page, but scraping might be out of scope or require BeautifulSoup.
-    # For this project, we might just use the snippet or title/tags if lyrics are hard to get without scraping.
-    # However, the subject mentions "Collecte des données via plusieurs APIs".
-    # I will assume we can get some text data or use a library like `lyricsgenius` if allowed, but `requests` is specified.
-    # I'll stick to requests and maybe just get metadata or try to find an API that gives lyrics.
-    # Actually, the subject says "Nettoie/structure les contenus textuels".
-    # I'll leave a placeholder for lyrics fetching.
+    def search_song(self, title, artist):
+        if not config.GENIUS_ACCESS_TOKEN:
+            logging.warning("Genius token not provided.")
+            return None
+        
+        search_url = f"{self.base_url}/search"
+        params = {'q': f"{title} {artist}"}
+        try:
+            response = requests.get(search_url, params=params, headers=self.headers)
+            if response.status_code == 200:
+                hits = response.json()['response']['hits']
+                if hits:
+                    # Return the best match
+                    result = hits[0]['result']
+                    return {
+                        'genius_url': result['url'],
+                        'full_title': result['full_title'],
+                        'lyrics_state': result['lyrics_state']
+                    }
+            return None
+        except Exception as e:
+            logging.error(f"Genius API error: {e}")
+            return None
 
 class MusicBrainzFetcher:
     def __init__(self):
@@ -110,10 +125,18 @@ class MusicBrainzFetcher:
         url = f"{self.base_url}/artist"
         params = {'query': artist_name, 'fmt': 'json'}
         try:
-            response = requests.get(url, params=params)
-            time.sleep(1) # Rate limiting
+            # Add User-Agent as required by MusicBrainz API
+            headers = {'User-Agent': 'MusicAnalysisProject/1.0 ( contact@example.com )'}
+            response = requests.get(url, params=params, headers=headers)
+            time.sleep(1.1) # Rate limiting (1 req/sec)
             if response.status_code == 200:
-                return response.json()
+                data = response.json()
+                if 'artists' in data and data['artists']:
+                    artist = data['artists'][0]
+                    return {
+                        'mb_country': artist.get('country', 'Unknown'),
+                        'mb_tags': [tag['name'] for tag in artist.get('tags', [])[:5]]
+                    }
             return None
         except Exception as e:
             logging.error(f"MusicBrainz API error: {e}")

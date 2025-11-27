@@ -274,3 +274,21 @@
 2025-11-27 14:10:31,804 - INFO - Clustering Score: 0.6543868321103345
 2025-11-27 14:10:33,532 - INFO - Dashboard generated.
 2025-11-27 14:10:33,533 - INFO - Pipeline completed.
+2025-11-27 14:20:35,557 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 14:20:35,557 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 14:20:36,164 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 14:20:36,685 - INFO - Fetched 25 top tracks for country FR.
+2025-11-27 14:20:37,239 - INFO - Fetched 25 top tracks for country BR.
+2025-11-27 14:20:37,785 - INFO - Fetched 25 top tracks for country DE.
+2025-11-27 14:20:38,200 - INFO - Fetched 25 top tracks for country JP.
+2025-11-27 14:20:38,782 - INFO - Fetched 25 top tracks for country IT.
+2025-11-27 14:20:39,230 - INFO - Fetched 25 top tracks for country ES.
+2025-11-27 14:20:39,694 - INFO - Fetched 25 top tracks for country CA.
+2025-11-27 14:20:40,316 - INFO - Fetched 25 top tracks for country AU.
+2025-11-27 14:20:40,819 - INFO - Fetched 25 top tracks for country MX.
+2025-11-27 14:20:40,961 - INFO - Fetched info for 16 artists.
+2025-11-27 14:21:12,503 - INFO - Collected 250 tracks.
+2025-11-27 14:21:12,506 - INFO - KPIs: {'total_tracks': 250}
+2025-11-27 14:21:12,529 - INFO - Clustering Score: 0.6543868321103345
+2025-11-27 14:21:16,088 - INFO - Dashboard generated.
+2025-11-27 14:21:16,088 - INFO - Pipeline completed.

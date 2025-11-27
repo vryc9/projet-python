@@ -30,6 +30,36 @@ def plot_technical_stats(latencies):
     plt.savefig(config.FIGS_DIR / "latency_box.png")
     plt.close()
 
+def plot_top_artists(df):
+    plt.figure(figsize=(10, 6))
+    top_artists = df['artist'].value_counts().head(10)
+    sns.barplot(x=top_artists.values, y=top_artists.index, palette='viridis')
+    plt.title('Top 10 Artists in Dataset')
+    plt.xlabel('Count')
+    plt.tight_layout()
+    plt.savefig(config.FIGS_DIR / "top_artists.png")
+    plt.close()
+
+def plot_genre_dist(df):
+    plt.figure(figsize=(8, 8))
+    # Split genres if they are comma separated and count
+    all_genres = df['genres'].str.split(', ').explode()
+    top_genres = all_genres.value_counts().head(8)
+    plt.pie(top_genres, labels=top_genres.index, autopct='%1.1f%%', startangle=140)
+    plt.title('Top Genres Distribution')
+    plt.tight_layout()
+    plt.savefig(config.FIGS_DIR / "genre_dist.png")
+    plt.close()
+
+def plot_popularity_dist(df):
+    plt.figure(figsize=(10, 6))
+    sns.histplot(df['popularity'], bins=20, kde=True, color='skyblue')
+    plt.title('Track Popularity Distribution')
+    plt.xlabel('Popularity (0-100)')
+    plt.tight_layout()
+    plt.savefig(config.FIGS_DIR / "popularity_dist.png")
+    plt.close()
+
 def plot_styles_by_country(df):
     # Mock implementation for now as we don't have 'country' column in mock data easily
     # But if we did:
@@ -56,7 +86,14 @@ def generate_dashboard(kpis, ml_score):
     pdf.cell(200, 10, txt=f"Clustering Silhouette Score: {ml_score:.2f}", ln=1, align='L')
     
     # Images
-    images = ["wordcloud.png", "styles_by_country.png", "latency_box.png"]
+    images = [
+        "wordcloud.png", 
+        "styles_by_country.png", 
+        "top_artists.png", 
+        "genre_dist.png", 
+        "popularity_dist.png",
+        "latency_box.png"
+    ]
     for img in images:
         img_path = config.FIGS_DIR / img
         if img_path.exists():

@@ -1,0 +1,14 @@
+# Virtual environment
+.env
+
+# Logs
+logs
+
+# Data
+data
+
+# Reports
+reports
+
+# Figures
+figs

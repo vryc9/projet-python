@@ -26,19 +26,49 @@ def main():
         # Create a map of artist_id -> genres
         artist_genres = {a['id']: a['genres'] for a in artists_info if a}
         
+        # Initialize other fetchers
+        genius = fetcher.GeniusFetcher()
+        mb = fetcher.MusicBrainzFetcher()
+        
+        # Cache for MusicBrainz to avoid redundant calls
+        mb_cache = {}
+
         # Combine data
         data = []
-        for track in all_tracks:
+        for i, track in enumerate(all_tracks):
+            # Limit API calls to first 20 tracks to save time/quota during dev, or fetch all if needed
+            # For this demo, we'll fetch for a subset to be fast
+            
+            artist_name = track['artists'][0]['name']
+            track_name = track['name']
             artist_id = track['artists'][0]['id']
             genres = artist_genres.get(artist_id, [])
             genre_str = ", ".join(genres) if genres else "unknown"
             
+            # Genius Data
+            genius_data = genius.search_song(track_name, artist_name) if i < 20 else None
+            genius_url = genius_data.get('genius_url', '') if genius_data else ''
+            
+            # MusicBrainz Data
+            if artist_name not in mb_cache:
+                if i < 20: # Limit MB calls too
+                    mb_cache[artist_name] = mb.get_artist_info(artist_name)
+                else:
+                    mb_cache[artist_name] = None
+            
+            mb_info = mb_cache.get(artist_name)
+            mb_country = mb_info.get('mb_country', 'Unknown') if mb_info else 'Unknown'
+            mb_tags = ", ".join(mb_info.get('mb_tags', [])) if mb_info else ''
+
             track_data = {
-                'name': track['name'],
-                'artist': track['artists'][0]['name'],
+                'name': track_name,
+                'artist': artist_name,
                 'id': track['id'],
                 'popularity': track['popularity'],
-                'genres': genre_str
+                'genres': genre_str,
+                'genius_url': genius_url,
+                'mb_country': mb_country,
+                'mb_tags': mb_tags
             }
             data.append(track_data)
         
@@ -70,8 +100,12 @@ def main():
         df = pd.DataFrame(data)
 
     # 2. Cleaning & Analysis
-    # Mock text for wordcloud since we don't have lyrics
-    text_data = " ".join(df['name'] + " " + df['artist'])
+    # Use collected text data (names, artists, genres, tags)
+    text_parts = df['name'] + " " + df['artist'] + " " + df['genres']
+    if 'mb_tags' in df.columns:
+        text_parts = text_parts + " " + df['mb_tags']
+        
+    text_data = " ".join(text_parts.fillna(''))
     cleaned_text = cleaner.clean_text(text_data)
     
     kpis = analyzer.compute_kpis(df)
@@ -98,6 +132,9 @@ def main():
     viz.plot_wordcloud(cleaned_text)
     # viz.plot_bpm_stats(df) # Removed as we don't have audio features
     viz.plot_styles_by_country(df)
+    viz.plot_top_artists(df)
+    viz.plot_genre_dist(df)
+    viz.plot_popularity_dist(df)
     # Mock latencies for technical plot
     viz.plot_technical_stats([0.1, 0.2, 0.15, 0.3, 0.12]) 
     
