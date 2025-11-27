@@ -1,0 +1,17 @@
+2025-11-27 16:31:36,378 - MAIN - INFO - === DÉMARRAGE DU PIPELINE MARKETING AI ===
+2025-11-27 16:31:36,378 - core.fetcher - INFO - Début de la collecte sur 6 sources...
+2025-11-27 16:31:36,584 - core.fetcher - INFO - [newsapi] Latency: 0.206s | Items: 0
+2025-11-27 16:31:36,661 - core.fetcher - INFO - [devto] Latency: 0.076s | Items: 30
+2025-11-27 16:31:41,161 - core.fetcher - INFO - [hackernews] Latency: 4.499s | Items: 15
+2025-11-27 16:31:41,659 - core.fetcher - INFO - [reddit] Latency: 0.499s | Items: 20
+2025-11-27 16:31:41,768 - core.fetcher - INFO - [arxiv] Latency: 0.108s | Items: 20
+2025-11-27 16:31:42,103 - core.fetcher - INFO - [wikipedia] Latency: 0.333s | Items: 10
+2025-11-27 16:31:42,109 - core.cleaner - INFO - Début du nettoyage...
+2025-11-27 16:31:42,127 - core.cleaner - INFO - Nettoyage terminé. 95 documents prêts pour le ML.
+2025-11-27 16:31:42,132 - MAIN - INFO - Rapport généré. Stats globales : {'total_documents': 95, 'sources_count': {'devto': 30, 'reddit': 20, 'arxiv': 20, 'hackernews': 15, 'wikipedia': 10}, 'avg_length': np.float64(413.0), 'top_5_keywords': ['that', 'learning', 'this', 'are', 'from']}
+2025-11-27 16:31:42,132 - core.features - INFO - Extraction des features (TF-IDF)...
+2025-11-27 16:31:42,156 - core.features - INFO - Vectorisation terminée. Shape: (95, 1000)
+2025-11-27 16:31:42,157 - core.model - INFO - Entraînement du modèle KMeans (k=4)...
+2025-11-27 16:31:44,394 - core.model - INFO - Silhouette Score: 0.0155
+2025-11-27 16:31:45,369 - MAIN - INFO - === PIPELINE TERMINÉ AVEC SUCCÈS ===
+2025-11-27 16:31:45,369 - MAIN - INFO - Ouvrez le dossier /reports pour voir dashboard.pdf et le dossier /figs pour les images.

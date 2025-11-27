@@ -1,0 +1,18 @@
+{
+    "total_documents": 95,
+    "sources_count": {
+        "devto": 30,
+        "reddit": 20,
+        "arxiv": 20,
+        "hackernews": 15,
+        "wikipedia": 10
+    },
+    "avg_length": 413.0,
+    "top_5_keywords": [
+        "that",
+        "learning",
+        "this",
+        "are",
+        "from"
+    ]
+}
