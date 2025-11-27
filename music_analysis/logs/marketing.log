@@ -292,3 +292,29 @@
 2025-11-27 14:21:12,529 - INFO - Clustering Score: 0.6543868321103345
 2025-11-27 14:21:16,088 - INFO - Dashboard generated.
 2025-11-27 14:21:16,088 - INFO - Pipeline completed.
+2025-11-27 14:44:09,506 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 14:44:09,507 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 14:44:10,151 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 14:44:10,181 - INFO - Starting Music Analysis Pipeline...
+2025-11-27 14:44:10,181 - INFO - Spotify client initialized successfully (User Auth).
+2025-11-27 14:44:10,664 - INFO - Fetched 25 top tracks for country FR.
+2025-11-27 14:44:10,870 - INFO - Fetched 25 top tracks for country US.
+2025-11-27 14:44:11,308 - INFO - Fetched 25 top tracks for country BR.
+2025-11-27 14:44:11,369 - INFO - Fetched 25 top tracks for country FR.
+2025-11-27 14:44:11,856 - INFO - Fetched 25 top tracks for country BR.
+2025-11-27 14:44:11,939 - INFO - Fetched 25 top tracks for country DE.
+2025-11-27 14:44:12,368 - INFO - Fetched 25 top tracks for country JP.
+2025-11-27 14:44:12,718 - INFO - Fetched 25 top tracks for country DE.
+2025-11-27 14:44:12,873 - INFO - Fetched 25 top tracks for country IT.
+2025-11-27 14:44:13,287 - INFO - Fetched 25 top tracks for country JP.
+2025-11-27 14:44:13,397 - INFO - Fetched 25 top tracks for country ES.
+2025-11-27 14:44:13,844 - INFO - Fetched 25 top tracks for country CA.
+2025-11-27 14:44:13,885 - INFO - Fetched 25 top tracks for country IT.
+2025-11-27 14:44:14,440 - INFO - Fetched 25 top tracks for country AU.
+2025-11-27 14:44:14,450 - INFO - Fetched 25 top tracks for country ES.
+2025-11-27 14:44:14,889 - INFO - Fetched 25 top tracks for country MX.
+2025-11-27 14:44:14,985 - INFO - Fetched 25 top tracks for country CA.
+2025-11-27 14:44:15,035 - INFO - Fetched info for 16 artists.
+2025-11-27 14:44:15,641 - INFO - Fetched 25 top tracks for country AU.
+2025-11-27 14:44:16,143 - INFO - Fetched 25 top tracks for country MX.
+2025-11-27 14:44:16,287 - INFO - Fetched info for 16 artists.
