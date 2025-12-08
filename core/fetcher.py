@@ -8,10 +8,13 @@ from .config import URLS, DATA_RAW
 logger = logging.getLogger(__name__)
 
 def fetch_data():
+    """
+    Collecte des données sur toutes les API configurées et sauvegarde le brut en JSON.
+    """
     raw_data = []
-    headers = {'User-Agent': 'Mozilla/5.0 (MarketingAI_StudentProject)'} # Indispensable pour Reddit
+    headers = {'User-Agent': 'Mozilla/5.0'}
 
-    logger.info("Début de la collecte sur 6 sources...")
+    logger.info("Début de la collecte")
 
     for source, url in URLS.items():
         start = time.time()
@@ -25,7 +28,7 @@ def fetch_data():
             if status == 200:
                 if source == 'reddit':
                     data = resp.json()
-                    content_extracted = data['data']['children'] # Structure Reddit
+                    content_extracted = data['data']['children']
                 
                 elif source == 'arxiv':
                     root = ET.fromstring(resp.content)
@@ -46,7 +49,7 @@ def fetch_data():
                         story = requests.get(s_url).json()
                         if story: content_extracted.append(story)
                 
-                else: 
+                else:
                     content_extracted = resp.json()
 
             latency = round(time.time() - start, 3)

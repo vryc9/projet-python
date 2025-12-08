@@ -5,9 +5,13 @@ from .config import DATA_RAW, DATA_CLEAN
 
 logger = logging.getLogger(__name__)
 
-STOPWORDS = set(["the", "a", "an", "of", "to", "in", "for", "on", "and", "is", "with", "le", "la", "les", "de", "et", "des", "du", "un", "une", "est", "sont"])
+STOPWORDS = set(["the", "a", "an", "of", "to", "in", "for", "on", "and", "is", "with",
+                 "le", "la", "les", "de", "et", "des", "du", "un", "une", "est", "sont"])
 
 def clean_text(text):
+    """
+    Nettoie une chaîne : minuscules, suppression HTML, caractères spéciaux et stopwords.
+    """
     if not text: return ""
     text = text.lower()
     text = re.sub(r'<[^>]+>', '', text)
@@ -15,8 +19,9 @@ def clean_text(text):
     return " ".join([w for w in text.split() if w not in STOPWORDS and len(w) > 2])
 
 def run_cleaner():
-    logger.info("Début du nettoyage...")
-    
+    """
+    Charge les données brutes, extrait les textes selon la source et génère un dataset nettoyé.
+    """
     try:
         with open(DATA_RAW, 'r', encoding='utf-8') as f:
             raw_list = json.load(f)
@@ -28,7 +33,6 @@ def run_cleaner():
 
     for entry in raw_list:
         source = entry['source']
-        
         contents = entry.get('raw_content', [])
         
         items = []
@@ -37,7 +41,7 @@ def run_cleaner():
             if isinstance(contents, dict):
                 items = contents.get('articles', [])
             else:
-                items = [] #
+                items = []
 
         elif source == 'reddit':
             items = contents 
@@ -66,12 +70,12 @@ def run_cleaner():
             if text_clean:
                 processed_docs.append({
                     "source": source,
-                    "original": text_raw[:100] + "...", 
+                    "original": text_raw[:100] + "...",
                     "cleaned_text": text_clean
                 })
 
     with open(DATA_CLEAN, 'w', encoding='utf-8') as f:
         json.dump(processed_docs, f, indent=4)
     
-    logger.info(f"Nettoyage terminé. {len(processed_docs)} documents prêts pour le ML.")
+    logger.info(f"Nettoyage terminé. {len(processed_docs)} documents")
     return processed_docs

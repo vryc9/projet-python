@@ -5,7 +5,11 @@ import csv
 from collections import Counter
 from .config import DATA_CLEAN, REPORTS_DIR
 
+
 def analyze_and_report(df_clean):
+    """
+        Génère des statistiques sur les textes nettoyés et crée des rapports CSV et JSON.
+    """    
     if not os.path.exists(REPORTS_DIR):
         os.makedirs(REPORTS_DIR)
 

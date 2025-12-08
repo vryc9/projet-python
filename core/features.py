@@ -8,7 +8,10 @@ from .config import DATA_CLEAN, VECT_PATH
 logger = logging.getLogger(__name__)
 
 def extract_features():
-    logger.info("Extraction des features (TF-IDF)...")
+    """
+    Transforme les textes nettoyés en matrice TF-IDF et sauvegarde le vectorizer.
+    """
+    logger.info("Extraction des features")
     
     with open(DATA_CLEAN, 'r', encoding='utf-8') as f:
         data = json.load(f)

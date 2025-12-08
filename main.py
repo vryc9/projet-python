@@ -15,7 +15,7 @@ logging.basicConfig(
 logger = logging.getLogger("MAIN")
 
 def main():
-    logger.info("=== DÉMARRAGE DU PIPELINE MARKETING AI ===")
+    logger.info("Démarrage de la pipeline ")
 
     raw_data_info = fetcher.fetch_data()
     
@@ -29,16 +29,11 @@ def main():
 
     summary = analyzer.analyze_and_report(df_clean)
     logger.info(f"Rapport généré. Stats globales : {summary}")
-
     X, vectorizer, _ = features.extract_features()
-
     kmeans_model, score = model.train_model(X)
-    
     df_clean['cluster'] = kmeans_model.labels_
-
     viz.generate_dashboard(df_clean, kmeans_model, vectorizer, raw_data_info)
-    
-    logger.info("=== PIPELINE TERMINÉ AVEC SUCCÈS ===")
+    logger.info("Pipeline terminée")
     logger.info("Ouvrez le dossier /reports pour voir dashboard.pdf et le dossier /figs pour les images.")
 
 if __name__ == "__main__":
