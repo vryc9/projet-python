@@ -10,7 +10,8 @@ logging.basicConfig(
     handlers=[
         logging.FileHandler(LOG_FILE),
         logging.StreamHandler(sys.stdout)
-    ]
+    ], 
+    encoding='utf-8'
 )
 logger = logging.getLogger("MAIN")
 

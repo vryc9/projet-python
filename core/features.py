@@ -15,10 +15,12 @@ def extract_features():
     
     with open(DATA_CLEAN, 'r', encoding='utf-8') as f:
         data = json.load(f)
-    
     corpus = [d['cleaned_text'] for d in data]
-    
-    vectorizer = TfidfVectorizer(ngram_range=(1, 2), max_features=1000)
+    vectorizer = TfidfVectorizer(
+        ngram_range=(1, 2), 
+        max_features=200,    
+        min_df=2
+    )
     X = vectorizer.fit_transform(corpus)
     
     with open(VECT_PATH, 'wb') as f:

@@ -5,17 +5,20 @@ from .config import DATA_RAW, DATA_CLEAN
 
 logger = logging.getLogger(__name__)
 
-STOPWORDS = set(["the", "a", "an", "of", "to", "in", "for", "on", "and", "is", "with",
-                 "le", "la", "les", "de", "et", "des", "du", "un", "une", "est", "sont"])
+
+STOPWORDS = set([
+    "the", "a", "an", "of", "to", "in", "for", "on", "and", "is", "with", "that", "this", 
+    "it", "from", "as", "are", "was", "be", "or", "at", "by", "but", "have", "not", "which",
+    "about", "would", "their", "will", "there", "can", "able", "ability", "been", "also",
+    "le", "la", "les", "de", "et", "des", "du", "un", "une", "est", "sont", "pour", "dans", 
+    "par", "sur", "avec", "qui", "que", "pas", "plus", "fait", "ses", "ces"
+])
 
 def clean_text(text):
-    """
-    Nettoie une chaîne : minuscules, suppression HTML, caractères spéciaux et stopwords.
-    """
     if not text: return ""
     text = text.lower()
-    text = re.sub(r'<[^>]+>', '', text)
-    text = re.sub(r'[^a-z\s]', '', text)
+    text = re.sub(r'<[^>]+>', '', text)  
+    text = re.sub(r'[^a-z\s]', '', text) 
     return " ".join([w for w in text.split() if w not in STOPWORDS and len(w) > 2])
 
 def run_cleaner():
