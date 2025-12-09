@@ -12,7 +12,10 @@ def fetch_data():
     Collecte des données sur toutes les API configurées et sauvegarde le brut en JSON.
     """
     raw_data = []
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    headers = {
+        'User-Agent': 'MarketingAI_StudentProject/1.0)',
+        'Accept': 'application/json'
+    }
 
     logger.info("Début de la collecte")
 

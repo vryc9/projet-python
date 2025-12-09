@@ -58,19 +58,32 @@ def plot_top_keywords(df, figs):
     save_and_store(fig, "top_keywords.png", figs)
 
 def plot_cluster_interpretation(model, vectorizer, figs):
-    """Trace l'interprétation des clusters KMeans."""
-    fig = plt.figure(figsize=(10, 4))
-    plt.axis('off')
+    """
+    Trace les top mots-clés par cluster sous forme de barres (Exigence Sujet).
+    """
     terms = vectorizer.get_feature_names_out()
     order_centroids = model.cluster_centers_.argsort()[:, ::-1]
+    n_clusters = model.n_clusters
     
-    text_str = "INTERPRÉTATION DES CLUSTERS (K-MEANS):\n\n"
-    for i in range(model.n_clusters):
-        top_w = [terms[ind] for ind in order_centroids[i, :6]]
-        text_str += f"Cluster {i}: {', '.join(top_w)}\n"
+    rows = (n_clusters + 1) // 2
+    fig, axes = plt.subplots(rows, 2, figsize=(12, 4 * rows))
+    axes = axes.flatten()
+    
+    for i in range(n_clusters):
+        top_indices = order_centroids[i, :10]
+        top_terms = [terms[ind] for ind in top_indices]
+        top_weights = [model.cluster_centers_[i, ind] for ind in top_indices]
         
-    plt.text(0.05, 0.2, text_str, fontsize=11, family='monospace')
-    plt.title("Extraction des thèmes par Cluster")
+        sns.barplot(x=top_weights, y=top_terms, ax=axes[i], palette='viridis', orient='h')
+        axes[i].set_title(f"Cluster {i}", fontsize=12, fontweight='bold')
+        axes[i].set_xlabel("Poids TF-IDF")
+    
+    for j in range(i + 1, len(axes)):
+        axes[j].axis('off')
+
+    plt.suptitle(f"Top Mots-clés par Cluster (K-Means k={n_clusters})", fontsize=14)
+    plt.tight_layout()
+    
     save_and_store(fig, "ml_clusters.png", figs)
 
 
